@@ -27,4 +27,4 @@ app.get('/',(req,res)=>{
   res.sendFile(path.resolve(__dirname, "frontend","dist","index.html"))
 })
 
-app.listen(PORT,()=>{console.log(`ram ram port--> ${PORT}`)})
+app.listen(1000,()=>{console.log(`ram ram port--> ${1000}`)})
